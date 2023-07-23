@@ -1,0 +1,187 @@
+/* Car Shop */
+.shop_slide{
+    display: flex; 
+    margin: 20px auto;
+    overflow-x: hidden;
+    padding-left: 0px;
+    list-style:none;
+    justify-content: center;
+}
+.shop_slide li{
+    padding-right: 20px; 
+    padding-left: 20px;
+}
+.shop_slide li a{
+    display: grid;
+}
+.shop_slide li img{
+    float: left; 
+    width: 350px;
+}
+.shop_slide .img_font {
+    background: #0e0d0d8a;
+    color: white;
+    display: initial;
+    position: relative;
+    bottom: 62px;
+    height: 45px;
+    width: 334px;
+    float: left;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.shop_best_list a{
+    display: grid;
+}
+.shop_best_list .div_rank {
+    position: relative;
+    background: #007fa8;
+    text-align: center;
+    height: 27px;
+    color: white;
+    font-weight: bold;
+    width: 30px;
+    bottom: 19px;
+}
+.shop_best_list .img {
+    width: 130px;
+    margin-top: -47px;
+}
+#pop{
+    display: flex;
+    height: 279px;
+    justify-content: center;
+}
+.shop_best_list .best_title {
+    width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 10px;
+    color: black;
+    font-weight: 550;
+    font-size: small;
+}
+.shop_best_list .best_price {
+    display: flex;
+    margin-top: 10px;
+}
+.price_discount {
+    color: red;
+    font-weight: 550;
+}
+.price_value {
+    color: black;
+    font-size: large;
+}
+
+
+
+
+/*  Car Brand */
+
+.best_list{
+    list-style: none;
+}
+
+.div_brand_list{
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+.brand_list {
+    list-style: none;
+    padding-left: 0px;
+}
+#abc{
+    display: flex;
+    width: 1040px;
+    margin: 0px 0px 0px 85px;
+    margin-left: 250px;
+}
+#abc > div {
+    width: 700px;
+    height: 100%;
+    justify-content: center;
+}
+.brand_list{
+    width: 220px;
+    min-height: 335px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 130% 130%;
+}
+#abc img{
+    width: 220px;
+    min-height: 335px;
+    height: auto;
+    object-fit: cover;
+    
+}
+#abc .brand_list:hover{
+    object-fit:cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.brand_text {
+    display: none;
+    position: relative;
+    background: #0e0d0d8a;
+    
+    height: 336px;
+    text-align: center;
+    color: white;
+}
+.brand_text h3 {
+    padding-top: 120px;
+}
+#abc .brand_list:hover .brand_text {
+    display: block;
+}
+
+#abc img:hover + .brand_text {
+    display: block;
+}
+.div_rank{
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

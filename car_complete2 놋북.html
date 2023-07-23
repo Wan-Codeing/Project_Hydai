@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+    <link href="resources/css/toy project소연.css" rel="stylesheet">
+    <link href="resources/css/main-content정완.css" rel="stylesheet">
+    <link href="resources/css/toy project재학.css" rel="stylesheet">
+    <style>
+        *{
+          /*border: 1px solid red;*/
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #head{
+            height: 100%;
+        }
+       #bodymain{
+            background-image: url("resources/images/main_kv_car_bg_w.jpg");
+            background-repeat: no-repeat;
+            background-position: 100%;
+            object-fit: contain;
+            margin-top: 0%;
+            height: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="head" >
+    <div class="header" style="background-color: white; z-index: 50;">
+        <div style="width: 5%;"></div>
+        <div style="width: 15%;">
+            <img id="logo" src="resources/images/logo_hyundae.jpg"> 
+        </div>
+        <div style="width: 10%;"></div>
+        <div id="navi">
+            <ul id="navi_1">
+                <li style="width: 15%;">
+                    <a href="">모델</a>
+                </li>
+                <li style="width: 35%;">
+                    <a href="">구매/이벤트</a>
+                </li>
+                <li style="width: 40%;">
+                    <a href="">서비스/멤버쉽</a>
+                </li>
+                <li style="width: 45%;">
+                    <a href="">디지털/고객지원</a>
+                </li>
+                <li style="width: 20%;">
+                    <a href="">브랜드</a>
+                </li>
+            </ul>
+            <div>
+                <a href=""><img style="margin-top:30%" src="resources/images/hyundai_shop_logo.png"></a>
+            </div>
+            <div style="width: 10%;"></div>
+            <div id="search">
+                <div style="width: 100px;">
+                    <a href=""><img id="myhy" src="resources/images/mhhyundai.png"></a>
+                </div>
+                <div style="text-align: center; width: 25%; margin: 3%">
+                    <a href="" id="kr">KR ▼</a>
+                    <ul id="lang">
+                        <li id="li1">EN</li>
+                        <li id="li2">CN</li>
+                        <li id="li3">월드와이드</li>
+                        <li id="li4">상용글로벌</li>
+                    </ul>
+                </div>
+                <div style="border-right: 2px solid gray;"></div>
+                <div id="last">
+                    <a href="" id="login1"><img src="resources/images/logo_1.png"></a>
+                    <ul id="login">
+                        <li id="li5"><a href="http://127.0.0.1:3000/%ED%98%84%EB%8C%80%EC%B0%A8%20%EC%9D%B4%EC%A0%95%EC%99%84%20%EA%B9%80%EC%86%8C%EC%97%B0%20%EC%A0%95%EC%9E%AC%ED%95%99%20%EC%B5%9C%EC%A2%85/%ED%98%84%EB%8C%80%EC%B0%A8%20%EC%9D%B4%EC%A0%95%EC%99%84%20%EA%B9%80%EC%86%8C%EC%97%B0%20%EC%A0%95%EC%9E%AC%ED%95%99%20%EC%B5%9C%EC%A2%85/login.html" style="text-decoration-line: none; color:black;">개인 로그인 ></a></li>
+                        <li id="li6">법인 로그인 ></li>
+                    </ul>
+                </div>
+                <div id="last2">
+                    <a href=""><img src="resources/images/logo_2.png"></a>
+                </div>
+                <div id="last3">
+                    <a href="" id="move"><img src="resources/images/logo_3.png"></a>
+                    <ul id="lang">
+                        <li id="li7"><a href="#body_1">Model</a></li>
+                        <li id="li8"><a href="#body_add">전기차</a></li>
+                        <li id="li9"><a href="#body_2">myHyundai</a></li>
+                        <li id="li10"><a href="#shop">현대Shop</a></li>
+                        <li id="li11"><a href="#brand">Brand</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="width: 5%;"></div>
+    </div>
+</div>
+<div id="bodymain">
+    <div id="main-content">
+        <div id="main-content_1">
+            <input type="radio" name="banner-select" id="banner-selet1" checked>
+            <div class="img1">  
+                <div>
+                    <b id="font_1">SONATA The Edge</b><br>
+                    <b id="font_1_1">4/20 사전계약 개시</b>
+                </div>
+            </div>
+
+            <input type="radio" name="banner-select" id="banner-selet2">
+            <div class="img2">
+                <div>
+                    <b id="font_1">The all-new KONA Electric</b><br>
+                    <b id="font_1_1">새로운 차원의 라이프</b>     
+                </div>
+            </div> 
+
+            <input type="radio" name="banner-select" id="banner-selet3">
+            <div class="img3">
+                <div>
+                    <b id="font_1">IONIQ6</b><br>
+                    <b id="font_1_1">2023세계 올해의 자동차 수상</b>  
+                </div>
+            </div>
+
+            <input type="radio" name="banner-select" id="banner-selet4">
+            <div class="img4">
+                <div>
+                    <b id="font_1">CASPER</b><br>
+                    <b id="font_1_1">case by CASPER</b>
+                </div>
+            </div>
+
+            <input type="radio" name="banner-select" id="banner-selet5">
+            <div class="img5">
+                <div>
+                    <b id="font_1">RE:Style 2023</b><br>
+                    <b id="font_1_1">지속 가능한 삶의 미래를 그리다</b>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br>
+        <div id="exapmle-main">
+            <div id="example" style="margin-top:580px; margin-left:200px;">
+                <input type="radio" name="exam-select" id="exam-1" checked>
+                <div id="exam_1">
+                    <a href=""><img src="resources/images/보기1.png" id="exam_1_1"></a>
+                </div>
+                <input type="radio" name="exam-select" id="exam-2">
+                <div id="exam_2">
+                    <a href=""><img src="resources/images/보기2.png" id="exam_2_2"></a>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+<div id="body_1">
+    <br>
+    <div id="body1">
+        <br>
+        <h2 class="title">Model</h2>
+        <br>
+        <p id="tit-tail">최근 한 달 동안 고객님들이 가장 많이 구매하신 모델입니다.</p>
+        <br>
+        <div class="scale-group">
+            <div class="scale-units">
+                <li class="units">
+                    <div class="unit1">
+                        <img src="resources//photo/model-1위.jpg" alt="1위. 디 올 뉴 그랜저 Hybrid" width="576px" height="100%">
+                    </div>
+                </li>
+                <li class="other">
+                    <div class="tab-menu">
+                            <div class="tab-menu_icon_active"> 
+                                <button type="button" id="button1" title="선택됨" class="active">전체</button> | 
+                                <button type="button" id="button2" title class>2~30대</button> | 
+                                <button type="button" id="button3" title class>40대</button> | 
+                                <button type="button" id="button4" title class>50대</button>
+                            </div> 
+                    </div>
+                    <br><br><br>    
+                    <div class="text1">
+                        1위. 디 올 뉴 그랜저 Hybrid 
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <div id="cars">
+                        <div class="unit2">
+                            <img src="resources/photo/model-2위.jpg" alt="2위. 팰리세이드" width="224px" height="auto">
+                            <div class="text">
+                                2위. 팰리세이드
+                            </div>
+                        </div>  
+                        <div class="unit3">
+                            <img src="resources/photo/model-3위.jpg" alt="3위. 투싼 Hybrid" width="224px" height="auto">
+                            <div class="text">
+                                3위. 투싼 Hybrid 
+                            </div>
+                        </div>
+                    </div>    
+                </li>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br>
+<div id="body_add">
+    <div id="body2">
+        <div class="e-car">
+            <h2 class="title3">전기차</h2><br>
+            <p class="tit-tail3">지구 환경을 품은 현대자동차의 미래형 모빌리티를 경험해보세요.</p>
+            <br><br>
+            <div class="e-menu">
+                <div class="img">
+                    <img src="resources/images/KakaoTalk_20230503_200934370.jpg" alt="전기차 아이오닉6">
+                </div>
+                <div class="e-text">
+                    <h6 class="new-text">NEW</h6>
+                    <h1>아이오닉6</h1>
+                    <li class="back-text">내가 만드는 세상</li>
+                    <br>
+                    <a href="https://www.hyundai.com/kr/ko/e/vehicles/ioniq6/intro">자세히보기</a>
+                    <br><br><br><br><br><br>
+                    <h3>충전소&서비스 네트워크</h3>
+                    <li class="back-text">고객님의 계신 곳 근처의 충전소 및 서비스 네트워크를 안내해드립니다.</li>
+                    <br><br>
+                    <div class="e-text2">
+                        <a href="https://www.hyundai.com/kr/ko/customer-support/service-network/ev-service-network">전기차></a>
+                        <a href="https://www.hyundai.com/kr/ko/customer-support/service-network/ev-service-network">수소 전기차></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<div id="body_2">
+    <div class="main">
+        <h2 class="title2" font-style="italic">myHyundai</h2>
+        <br>
+        <p class="tit-tail2">
+            이제, 단순히 APP을 넘어서 당신의 카라이프를 책임질<br>
+            '라이프 플랫폼 myHyundai'를 만나보세요.
+        </p>
+    </div>
+    <div class="myh-blue">
+        <ul class="list-all">
+            <li class="list-groups">
+                <ul class="list">
+                    <div class="back-wraps" >
+                        <input type="radio" name="slide" id="slide1" checked style="margin-left:500px; margin-top:420px;">
+                        <div class="slider1" id="img1">
+                            <li style="background:url(resources/photo/main-background/main_myhyundai_background.jpg);  background-repeat: no-repeat; background-position-x: 30%; margin-left:100px;">    
+                                <div class="back-wrap" style="margin-left:130px; margin-top:50px;">
+                                    <h3 class="back-tit">홈</h3>
+                                    <div class="back-text">보유차량 정보에 따른 맞춤 정보형<br> UI 통해 제공</div>
+                                    <a href="https://www.hyundai.com/kr/ko/digital-customer-support/app/myhyundai/myhyundai-information"><br>&nbsp&nbsp&nbsp&nbsp&nbsp자세히보기 ></a>
+                                </div>
+                            </li>
+                            <li style="background:url(resources/photo/main-background/main_myhyundai_background2.jpg); background-repeat: no-repeat; background-position-x: 30%;">
+                                <div class="back-wrap" style="margin-left:130px; margin-top:50px;">
+                                    <h3 class="back-tit">차고</h3>
+                                    <div class="back-text">차량정보 및 유지비 관리를 포함한<br> 쉬운 차량 관리</div>
+                                    <a href="https://www.hyundai.com/kr/ko/digital-customer-support/app/myhyundai/myhyundai-information"><br>&nbsp&nbsp&nbsp&nbsp&nbsp자세히보기 ></a>
+                                </div>
+                            </li>
+                        </div>
+                        <input type="radio" name="slide" id="slide2" style="margin-left:30px; margin-top:420px;">
+                        <div class="slider2" id="img2">
+                            <li style="background:url(resources/photo/main-background/main_myhyundai_background3.jpg); background-repeat: no-repeat; background-position-x: 30%; margin-left:100px; ">
+                                <div class="back-wrap" style="margin-left:130px; margin-top:50px;">
+                                    <h3 class="back-tit">Shop</h3>
+                                    <div class="back-text">마이현대 대표 커머스<br> 현대 Shop과의 연계</div>
+                                    <a href="https://www.hyundai.com/kr/ko/digital-customer-support/app/myhyundai/myhyundai-information background-repeat: no-repeat; width: 100%; height: 288px;"><br>&nbsp&nbsp&nbsp&nbsp&nbsp자세히보기 ></a>
+                                </div>
+                            </li>
+                            <li style="background:url(resources/photo/main-background/main_myhyundai_background4.jpg); background-repeat: no-repeat; background-position-x: 30%;">
+                                <div class="back-wrap" style="margin-left:130px; margin-top:50px;"> 
+                                    <h3 class="back-tit">서비스</h3>
+                                    <div class="back-text">정비를 포함한 다양한 차량<br> 관련 서비스</div>
+                                    <a href="https://www.hyundai.com/kr/ko/digital-customer-support/app/myhyundai/myhyundai-information"><br>&nbsp&nbsp&nbsp&nbsp&nbsp자세히보기 ></a>      
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                        <div class="app-wrap" style="margin-top:75px; width:15%; margin-left:-60px;">
+                            <h3 class="app-tit">마이현대 APP</h3>
+                            <div class="app-text" style="padding:auto;">
+                                당신의 키라이프를 책임질 
+                                <br>
+                                현대자동차 대표 앱 myhyundai
+                                <br>
+                                를 만나보세요.
+                            </div>
+                            <a href="https://www.hyundai.com/kr/ko/app-download" target="_blank" data-link-area="main-blue멤버스 마이현대APP" data-link-name="자세히보기_마이현대APP" class="link">APP 다운로드</a>                           </a>
+                        </div>
+    
+                </ul>
+            </li>        
+        </ul>
+    </div>      
+</div>
+
+<br><br><br>
+
+<div id="shop">
+    <h2 style="text-align: center; font-size: 44px;">현대 Shop</h2>
+    <br> 
+    <p style="text-align: center;">현대자동차 공식 온라인몰에서 다양한 상품을 확인해보세요.</p>
+    <br>
+    <div id="shop_s">
+        <ul class="shop_slide">
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="resources/images재학/shop1.jpg" alt="">
+                    </div> 
+                    <div class="img_font">
+                        여기 주차해도 될까? 전용주차구역 알아보기!
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="resources/images재학/shop2.jpg" alt="">
+                    </div> 
+                    <div class="img_font">
+                        없으면 생각나는 편리한 실내 차량 용품들!
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="resources/images재학/shop3.jpg" alt="">
+                    </div> 
+                    <div class="img_font">
+                        애플페이 국내 상륙! 아이폰을 쓰지 않아도 반갑다구~
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div>
+            <div id="pop">
+                <div style="width: 220px; background: #f6f3f2; margin-right: 50px; height:100%; padding-top:2%;">
+                    <h3 style="text-align: center; font-size: 24px;">현대 Shop Best</h3> 
+                    <div style="padding-left: 28px; font-size: 16px; font-weight: 600; color: gray; margin-bottom: 25px; line-height: 25px;">
+                        지금 현대Shop에서
+                        <br>
+                        인기 있는 상품이에요
+                    </div>
+                    <a href="" style="font-size: smaller; padding-left: 30px; font-weight: bold; text-decoration: none;">
+                        더보기 <img src="resources/images재학/ico_btn.png">
+                    </a>
+                </div>
+                <ul class="shop_best_list" style="list-style: none; display: flex;">
+                    <li style="margin-right: 35px;">
+                        <a href="" style="text-decoration:none;">
+                            <div class="div_rank">
+                                1
+                            </div> 
+                            <div class="img">
+                                <img src="resources/images재학/shop_best1.jpg" style="width: 190px;">
+                            </div> 
+                            <div class="best_title">
+                                [안방그릴] 연기 잡는 전기그릴 시즌4 AB701MF (전용가방＋필터 포함)
+                            </div> 
+                            <div class="best_price">
+                                <div>
+                                    <div class="price_discount">14% ↓</div>
+                                </div> 
+                                <div class="price_value">
+                                    <strong>188,000</strong>원
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li style="margin-right: 35px;">
+                        <a href="" style="text-decoration:none;">
+                            <div class="div_rank">
+                                2
+                            </div>  
+                            <div class="img">
+                                <img src="resources/images재학/shop_best2.jpg" style="width: 190px;">
+                            </div>
+                            <div class="best_title">
+                                [디테일링] 괴물흡입력 17,000Pa BLDC 핸디형 무선청소기 (필터추가증정)
+                            </div>  
+                            <div class="best_price">
+                                <div>
+                                    <div class="price_discount">29% ↓</div> 
+                                </div>
+                                <div class="price_value">
+                                    <strong>79,000</strong>원
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li style="margin-right: 35px;">
+                        <a href="" style="text-decoration:none;">
+                            <div class="div_rank">
+                                3
+                            </div> 
+                            <div class="img">
+                                <img src="resources/images재학/shop_best3.jpg" style="width: 190px;">
+                            </div> 
+                            <div class="best_title">
+                                [미락] 바이오 3세대 진공 쌀통 20kg SM-22A20R
+                            </div>
+                            <div class="best_price">
+                                <div>
+                                    <div class="price_discount">16% ↓</div> 
+                                </div>
+                                <div class="price_value">
+                                    <strong>109,000</strong>원
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" style="text-decoration:none;">
+                            <div class="div_rank">
+                                4
+                            </div> 
+                            <div class="img">
+                                <img src="resources/images재학/shop_best4.jpg" style="width: 190px;">
+                            </div>
+                            <div class="best_title">
+                                [이지스] 리츠S 스마트키 케이스
+                            </div>
+                            <div class="best_price">
+                                <div>    
+                                    <div class="price_value">
+                                        <strong>33,000</strong>원
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+        </div> 
+    </div>
+</div>
+
+<br><br>
+
+<div id="brand">
+    <h2 style="text-align: center; font-size: 44px;">Brand</h2>
+    <br> 
+    <p style="text-align: center; font-weight: lighter; font-size: smaller;">지속가능한 미래로의 연결을 추구하는 현대자동차의 브랜드 캠페인을 만나보세요.</p>
+    <br><br> 
+    <div>
+        <div>
+            <div id="brand_img" style="margin-left: 200px;">
+                <div id="abc">
+                    <div style="margin-right: 50px;">
+                        <ul class="brand_list" style="background-image: url('resources/images재학/brand1.jpg');">
+                            <li>
+                                <a href="" style="text-decoration:none;">
+                                    <div class="brand_text">
+                                        <h3>Re:Style 2023</h3> 
+                                        <div>지속 가능한 삶의 미래를 그리다</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="margin-right: 50px; ">
+                        <ul class="brand_list" style="background-image: url('resources/images재학/brand2.jpg');">
+                            <li>
+                                <a href="" style="text-decoration:none;">
+                                    <div class="brand_text">
+                                        <h3>로보틱스</h3> 
+                                        <div>당신을 향한 모빌리티</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="margin-right: 50px;">
+                        <ul class="brand_list" style="background-image: url('resources/images재학/brand3.jpg');">
+                            <li>
+                                <a href="" style="text-decoration:none;">
+                                    <div class="brand_text">
+                                        <h3>파트너십</h3> 
+                                        <div>현대차 x UNDP 2022</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="brand_list" style="background-image: url('resources/images재학/brand4.jpg');">
+                            <li>
+                                <a href="" style="text-decoration:none;">
+                                    <div class="brand_text">
+                                        <h3>미래 모빌리티 서비스</h3>
+                                        <div>아이오닉 5 기반의 레벨 4 자율주행 자동차</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                
+<div id="foot">
+    <div id="footer">
+        <div class="footer">
+            <div>
+                <div id="footer_top">
+                    <div id="footer_top_1"><img id="img_1" src="resources/images/logo_footer.png"></div>
+                    <div id="footer_top_2">
+                        <ul id="footer_top_nav">
+                            <div id="footer_top_navi">
+                                <li style="border-right:1px solid #999;"><a href="">모바일 App</a></li>
+                                <li style="border-right:1px solid #999;"><a href="">저작권안내</a></li>
+                                <li style="border-right:1px solid #999;"><a href="" style="color:white"><strong>개인정보 처리방침</strong></a></li>
+                                <li style="border-right:1px solid #999;"><a href="">이용약관</a></li>
+                                <li><a href="">프라이버시 센터</a></li>
+                            </div>
+                            <div style="height: 10%;"></div>
+                            <div id="footer_top_navi">
+                                <li style="border-right:1px solid #999; width: 30%;"><a href="" style="font-size: 13px;">윤리경영 사이버 감사실</a></li>
+                                <li style="border-right:1px solid #999; width: 40%;"><a href="" style="font-size: 13px;">영상정보처리기기 운영관리방침</a></li>
+                                <li><a href="" style="font-size: 13px; width: 10%;">사이트맵</a></li>
+                            </div>
+                            <div style="height: 5%;"></div>
+                            <div id="footer_top_navi_1">
+                                <p>고객센터 : 080-600-6000</p>
+                                <p>
+                                    COPYRIGHT ⓒ HYUNDAI MOTOR COMPANY.ALL RIGHTS RESERVED.
+                                </p>
+                            </div>
+                        </ul>
+                    </div>
+                    <div id="footer_top_3">
+                        <div>
+                            <ul id="footer_none_1">
+                                <li><a href=""><img src="resources/images/facebook.png"></a></li>
+                                <li><a href=""><img src="resources/images/youtube.png"></a></lis=>
+                                <li><a href=""><img src="resources/images/naver.png"></a></li>
+                                <li><a href=""><img src="resources/images/twitter.png"></a></li>
+                                <li><a href=""><img src="resources/images/instargram.png"></a></li>
+                                <li><a href=""><img src="resources/images/hyundae-truck.png"></a></lis>
+                                <li><a href=""><img src="resources/images/hyundae-naver.png"></a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <select id="family_site">
+                                <option id="name">Family_Site</optione=>
+                                <option>현대자동차그룹</option>
+                                <option>제네시스닷컴</option>
+                                <option>캐스퍼 온라인</option>
+                                <option>N 브랜드</option>
+                                <option>경제산업연구센터</option>
+                                <option>현대 모터스튜디오</option>
+                                <option>키즈현대</optione=>
+                                <option>동반성장 사이트</option>
+                                <option>현대 드라이빙 아카데미</option>
+                                <option>현대 컬렉션 온라인샵</option>
+                                <option>고객소통채널 H-ear</option>
+                                <option>전북 현대모터스 축구단</option>
+                            </select> 
+                        </div>
+                    </div>   
+                </div>
+                <hr style="border: 0.1px solid #999;">
+                <div id="footer_bottom">
+                    <li><img src="resources/images/상표_7.png"><div style="width: 80%;">웹 접근성 품질인증</div></li>
+                    <li><img src="resources/images/상표_6.png"><div style="width: 80%;">우수디자인 지식경제부선정</d></li>
+                    <li><img src="resources/images/상표_5.png"><div style="width: 80%;">가족친화 우수기관</div></li>
+                    <li><img src="resources/images/상표_4.png"><div style="width: 70%;">2022년 한국서비스품질지수 (KS-SQI) 자동차 A/S 부문 8년 연속 1위</div></li>
+                    <li><img src="resources/images/상표_3.png"><div style="width: 70%;">2022년 한국품질만족지수     (KS-QEI) 조사 12개 부문 1위</div></li>
+                </div>
+                <div id="footer_bottom_2">
+                    <li><img src="resources/images/상표_2.png"><div style="width: 60%;">2022년 국가고객만족도 (NCSI) 자동차기업 최초 조사대상 전부문 9년 연속 1위 수상 (준중형, 중형, 준대형, 대형, RV)</d></li>
+                    <li><img src="resources/images/상표_1.png"><div style="width: 60%;">KMAC 선정<br>2022년 한국산업의 고객만족도<br>일반승용차 부문 29년 연속<br>RV승용차 부문 19년 연속 1위</div></li>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

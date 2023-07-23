@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car_bodymain</title>
+    <style>
+    *{
+        /* border: 1px solid white; */
+    }
+    #main-content{
+        width: 100%;
+        height: 100%;
+    }
+    #font_1{
+        font-size: 80px;
+        font-weight: 900;
+    }
+    #font_1_1{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    #main-content>div>input[type="radio"]:checked+.img1{
+        visibility : visible;
+        transition-duration: 0.4s;
+        opacity: 100%;
+        transition-timing-function: ease-out;
+    }
+    #main-content>div>input[type="radio"]:checked+.img2{
+        visibility : visible;
+        transition-duration: 0.4s;
+        opacity: 100%;
+        transition-timing-function: ease-out;
+    }
+    #main-content>div>input[type="radio"]:checked+.img3{
+        visibility : visible;
+        transition-duration: 0.4s;
+        opacity: 100%;
+        transition-timing-function: ease-out;
+    }
+    #main-content>div>input[type="radio"]:checked+.img4{
+        visibility : visible;
+        transition-duration: 0.4s;
+        opacity: 100%;
+        transition-timing-function: ease-out;
+    }
+    #main-content>div>input[type="radio"]:checked+.img5{
+        visibility : visible;
+        transition-duration: 0.4s;
+        opacity: 100%;
+        transition-timing-function: ease-out;
+    }
+    #main-content input[type="radio"] {
+        height: 10%;
+        border: 2px solid blue;
+        cursor: pointer;
+    }
+    #main-content>div {
+        display: flex;
+        justify-content: center;
+    }
+    .img1 {
+        margin-top: 5%;
+        visibility: hidden;
+        background-image: url(resources/images/sonata.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50%;
+        height: 100%;
+        width: 80%;
+        position: absolute;
+    }
+    .img2 {
+        margin-top: 5%;
+        visibility: hidden;
+        background-image: url(resources/images/KONA-Electric.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 20%;
+        height: 100%;
+        width: 80%;
+        position: absolute;
+    }
+    .img3 {
+        margin-top: 5%;
+        visibility: hidden;
+        background-image: url(resources/images/ONIQ6.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 20%;
+        height: 100%;
+        width: 80%;
+        position: absolute;
+    }
+    .img4 {
+        margin-top: 5%;
+        visibility: hidden;
+        background-image: url(resources/images/CASPER.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 20%;
+        height: 100%;
+        width: 80%;
+        position: absolute;
+    }
+    .img5 {
+        margin-top: 10%;
+        visibility: hidden;
+        background-image: url(resources/images/restyle-2023.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 80%;
+        width: 80%;
+        position: absolute;
+    }
+    #example{
+        list-style-type: none;
+        margin-top: 30%;
+        margin-left: 31%;
+        display: flex;
+        text-align: center;
+    }
+    #exam_1{
+        visibility: hidden;
+        margin-top:15%;
+        height: 20px;
+        position: absolute;
+
+    }
+    #exam_2{
+        visibility: hidden;
+        margin-top:15%;
+        height: 20px;
+        position: absolute;
+    }
+    #example>input{
+        height: 5%;
+    }
+    #example>input[type="radio"]:checked+#exam_1{
+        visibility : visible;
+        transition-duration: 0.4s;
+        opacity: 100%;
+        transition-timing-function: ease-out;
+    }
+    #example>input[type="radio"]:checked+#exam_2{
+        visibility : visible;
+        transition-duration: 0.4s;
+        opacity: 100%;
+        transition-timing-function: ease-out;
+    }
+    #exam-1{
+       position: absolute;
+       margin-left: 14%;
+        margin-top: 12%;
+    }
+    #exam-2{
+        position: absolute;
+        margin-left: 15%;
+        margin-top: 12%;
+    }
+    body{
+        background-image: url("resources/images/main_kv_car_bg_w.jpg");
+    }
+    </style>
+</head>
+    <body>
+        <div id="main-content" >
+            <div>
+                <input type="radio" name="banner-select" id="banner-selet1" checked>
+                <div class="img1">  
+                    <div>
+                        <b id="font_1">SONATA The Edge</b><br>
+                        <b id="font_1_1">4/20 사전계약 개시</b>
+                    </div>
+                </div>
+
+                <input type="radio" name="banner-select" id="banner-selet2">
+                <div class="img2">
+                    <div>
+                        <b id="font_1">The all-new KONA Electric</b><br>
+                        <b id="font_1_1">새로운 차원의 라이프</b>     
+                    </div>
+                </div> 
+
+                <input type="radio" name="banner-select" id="banner-selet3">
+                <div class="img3">
+                    <div>
+                        <b id="font_1">IONIQ6</b><br>
+                        <b id="font_1_1">2023세계 올해의 자동차 수상</b>  
+                    </div>
+                </div>
+
+                <input type="radio" name="banner-select" id="banner-selet4">
+                <div class="img4">
+                    <div>
+                        <b id="font_1">CASPER</b><br>
+                        <b id="font_1_1">case by CASPER</b>
+                    </div>
+                </div>
+
+                <input type="radio" name="banner-select" id="banner-selet5">
+                <div class="img5">
+                    <div>
+                        <b id="font_1">RE:Style 2023</b><br>
+                        <b id="font_1_1">지속 가능한 삶의 미래를 그리다</b>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div>
+            <div id="example">
+                    <input type="radio" name="exam-select" id="exam-1" checked>
+                    <div id="exam_1">
+                        <a href=""><img src="resources/images/보기1.png"></a>
+                    </div>
+
+                    <input type="radio" name="exam-select" id="exam-2">
+                    <div id="exam_2">
+                        <a href=""><img src="resources/images/보기2.png"></a>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>

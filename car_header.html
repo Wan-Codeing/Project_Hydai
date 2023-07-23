@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>현대차_Header</title>
+    <style>
+        *{
+            /* border: 1px solid red;             */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* 임시스타일 */
+        .header{
+            width: 100%;
+            height: 50px;
+        }
+        .header{
+            position: fixed;
+        }
+        body>div{
+            display: flex;
+        }
+        #logo{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+        #myhy{
+            width: 100%;
+            height: 100%;
+            object-fit:contain;
+        }
+        #navi{
+            display: flex;
+            width: 90%;
+        }
+        #navi>div{
+            display: flex;
+        }
+        #navi_1{
+            display:flex;
+            justify-content: center;
+            text-align: center;
+            width: 70%;
+        }
+        #navi_1>li{
+            width: 25%;
+            list-style-type: none;
+            margin-top: 1%;            
+        }
+        #navi_1>li:hover{
+            border-bottom: 2px solid navy;
+        }
+        #navi_1>li>a{
+            text-decoration: none;
+            font-size: 13px;
+            line-height: 40px;
+            color: black;
+            font-weight: 900;
+        }
+        #kr{
+            text-decoration: none;
+            color: black;
+        }
+        #search{
+            width: 50%;
+            padding:0;
+        }
+        #lang>li{
+            list-style: none;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 900;
+            margin: 0%;
+            padding: 15px;
+            cursor: pointer;
+            color: black;
+        }
+        #kr:hover+#lang{
+            display: block;
+        }
+        #lang:hover{
+            display: block;
+        }
+        #lang{
+            display: none;
+            padding:0;
+        }
+        #last{
+            padding: 0;
+            margin-top: 2%;
+            margin-left: 2%;
+        }
+        #login>li{
+            list-style: none;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 900;
+            margin: 0%;
+            padding: 15px;
+            cursor: pointer;
+            color: black;
+        }
+        #login1:hover+#login{
+            display: block;
+        }
+        #login:hover{
+            display: block;
+        }
+        #login{
+            display: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div style="width: 5%;"></div>
+        <div style="width: 15%;">
+            <img id="logo" src="resources/images/logo_hyundae.jpg"> 
+        </div>
+        <div style="width: 10%;"></div>
+        <div id="navi">
+            <ul id="navi_1">
+                <li style="width: 15%;">
+                    <a href="">모델</a>
+                </li>
+                <li style="width: 35%;">
+                    <a href="">구매/이벤트</a>
+                </li>
+                <li style="width: 40%;">
+                    <a href="">서비스/멤버쉽</a>
+                </li>
+                <li style="width: 45%;">
+                    <a href="">디지털/고객지원</a>
+                </li>
+                <li style="width: 20%;">
+                    <a href="">브랜드</a>
+                </li>
+            </ul>
+            <div>
+                <a href=""><img style="margin-top:30%" src="resources/images/hyundai_shop_logo.png"></a>
+            </div>
+            <div style="width: 10%;"></div>
+            <div id="search">
+                <div style="width: 100px;">
+                    <a href=""><img id="myhy" src="resources/images/mhhyundai.png"></a>
+                </div>
+                <div style="text-align: center; width: 25%; margin: 3%">
+                    <a href="" id="kr">KR ▼</a>
+                    <ul id="lang">
+                        <li>EN</li>
+                        <li>CN</li>
+                        <li>월드와이드</li>
+                        <li>상용글로벌</li>
+                    </ul>
+                </div>
+                <div style="border-right: 2px solid gray;"></div>
+                <div id="last">
+                    <a href="" id="login1"><img src="resources/images/logo_1.png"></a>
+                    <ul id="login">
+                        <li>개인 로그인 ></li>
+                        <li>법인 로그인 ></li>
+                    </ul>
+                </div>
+                <div id="last">
+                    <a href=""><img src="resources/images/logo_2.png"></a>
+                </div>
+                <div id="last">
+                    <a href=""><img src="resources/images/logo_3.png"></a>
+                </div>
+            </div>
+        </div>
+        <div style="width: 5%;"></div>
+    </div>
+</body>
+</html>

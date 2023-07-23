@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car_footer</title>
+    <style>
+        #footer{
+            width: 100%;
+            height: 50%;
+            
+        }
+        *{
+            /* border: 1px solid white; */
+            margin: 0;
+            padding: 0;
+        }
+        .footer{
+            position: relative;
+            z-index: 2;
+            padding: 60px 50px;
+            background-color: #1c1b1b;
+            font-size: 13px;
+            color: #999;
+        }
+        #footer_top{
+            display:flex;
+        }
+        #footer_top_1{
+            width: 20%;
+        }
+        #footer_top_2{
+            width: 70%;
+        }
+        #footer_top_3{
+            width: 30%;
+        }
+        #img_1{
+            margin: 0 50%;
+            height: 15%;   
+        }
+        #footer_top_nav{
+            height: 90%;
+            text-align: center;
+            margin-top: 0;
+        }
+        #footer_top_navi{
+            display: flex;
+            width: 100%;
+        }
+        #footer_top_navi>li{
+            list-style: none;
+            height: 20%;
+            width: 20%;
+        }
+        #footer_top_navi a{
+            font-weight: 500;
+            line-height: 1;
+            letter-spacing: 0;
+            text-decoration: none;
+            color: #999;
+            font-size: 14px;
+        }
+        #footer_top_navi_1{
+            height: 20%;
+            margin-bottom: 100px;
+            text-align: left;
+            margin-left: 5%;
+        }
+        #footer_top_nav>div>li>a{
+            margin: 0 5%;
+        }
+        #footer_none_1{
+            display: flex;
+            list-style: none;
+            height: 140px;
+        }
+        #family_site{
+            background-color: #1c1b1b;
+            color: #999;
+            width: 100%;
+        }
+        #name{
+            display:none;
+        }
+        #footer_none_1>li>a>img{
+            object-fit: fill; 
+            width:100%;
+            position: relative;
+            top : 60%;
+        }
+        #footer_bottom{
+            display: flex;
+            width: 100%;
+            
+        }
+        #footer_bottom>li{
+            list-style: none;
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        #footer_bottom>li>img{
+            position: relative;
+            top: 10px;
+        }
+        #footer_bottom>li>div{
+            position: relative;
+            top: 10px;
+        }
+        #footer_bottom_2{
+            display: flex;
+            width: 50%;
+            height: 50px;
+        }
+        #footer_bottom_2>li{
+            list-style: none;
+            width: 100%;
+            display: flex;
+        }
+        #footer_bottom_2>li>img{
+            object-fit: contain;
+            width: 13%;
+            margin-bottom: 0%;
+        }
+    </style>
+</head>
+<body>
+    <div id="footer">
+    <div class="footer">
+        <div>
+            <div id="footer_top">
+                <div id="footer_top_1"><img id="img_1" src="resources/images/logo_footer.png"></div>
+                <div id="footer_top_2">
+                    <ul id="footer_top_nav">
+                        <div id="footer_top_navi">
+                            <li style="border-right:1px solid #999;"><a href="">모바일 App</a></li>
+                            <li style="border-right:1px solid #999;"><a href="">저작권안내</a></li>
+                            <li style="border-right:1px solid #999;"><a href="" style="color:white"><strong>개인정보 처리방침</strong></a></li>
+                            <li style="border-right:1px solid #999;"><a href="">이용약관</a></li>
+                            <li><a href="">프라이버시 센터</a></li>
+                        </div>
+                        <div style="height: 10%;"></div>
+                        <div id="footer_top_navi">
+                            <li style="border-right:1px solid #999; width: 30%;"><a href="" style="font-size: 13px;">윤리경영 사이버 감사실</a></li>
+                            <li style="border-right:1px solid #999; width: 40%;"><a href="" style="font-size: 13px;">영상정보처리기기 운영관리방침</a></li>
+                            <li><a href="" style="font-size: 13px; width: 10%;">사이트맵</a></li>
+                        </div>
+                        <div style="height: 5%;"></div>
+                        <div id="footer_top_navi_1">
+                            <p>고객센터 : 080-600-6000</p>
+                            <p>
+                                COPYRIGHT ⓒ HYUNDAI MOTOR COMPANY.ALL RIGHTS RESERVED.
+                            </p>
+                        </div>
+                    </ul>
+                </div>
+                <div id="footer_top_3">
+                    <div>
+                        <ul id="footer_none_1">
+                            <li><a href=""><img src="resources/images/facebook.png"></a></li>
+                            <li><a href=""><img src="resources/images/youtube.png"></a></lis=>
+                            <li><a href=""><img src="resources/images/naver.png"></a></li>
+                            <li><a href=""><img src="resources/images/twitter.png"></a></li>
+                            <li><a href=""><img src="resources/images/instargram.png"></a></li>
+                            <li><a href=""><img src="resources/images/hyundae-truck.png"></a></lis>
+                            <li><a href=""><img src="resources/images/hyundae-naver.png"></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <select id="family_site">
+                            <option id="name">Family_Site</optione=>
+                            <option>현대자동차그룹</option>
+                            <option>제네시스닷컴</option>
+                            <option>캐스퍼 온라인</option>
+                            <option>N 브랜드</option>
+                            <option>경제산업연구센터</option>
+                            <option>현대 모터스튜디오</option>
+                            <option>키즈현대</optione=>
+                            <option>동반성장 사이트</option>
+                            <option>현대 드라이빙 아카데미</option>
+                            <option>현대 컬렉션 온라인샵</option>
+                            <option>고객소통채널 H-ear</option>
+                            <option>전북 현대모터스 축구단</option>
+                        </select> 
+                    </div>
+                </div>   
+            </div>
+            <hr style="border: 0.1px solid #999;">
+            <div id="footer_bottom">
+                <li><img src="resources/images/상표_7.png"><div style="width: 80%;">웹 접근성 품질인증</div></li>
+                <li><img src="resources/images/상표_6.png"><div style="width: 80%;">우수디자인 지식경제부선정</d></li>
+                <li><img src="resources/images/상표_5.png"><div style="width: 80%;">가족친화 우수기관</div></li>
+                <li><img src="resources/images/상표_4.png"><div style="width: 70%;">2022년 한국서비스품질지수 (KS-SQI) 자동차 A/S 부문 8년 연속 1위</div></li>
+                <li><img src="resources/images/상표_3.png"><div style="width: 70%;">2022년 한국품질만족지수     (KS-QEI) 조사 12개 부문 1위</div></li>
+            </div>
+            <div id="footer_bottom_2">
+                <li><img src="resources/images/상표_2.png"><div style="width: 60%;">2022년 국가고객만족도 (NCSI) 자동차기업 최초 조사대상 전부문 9년 연속 1위 수상 (준중형, 중형, 준대형, 대형, RV)</d></li>
+                <li><img src="resources/images/상표_1.png"><div style="width: 60%;">KMAC 선정<br>2022년 한국산업의 고객만족도<br>일반승용차 부문 29년 연속<br>RV승용차 부문 19년 연속 1위</div></li>
+            </div> 
+        </div>
+    </div>
+    </div>
+</body>
+</html>

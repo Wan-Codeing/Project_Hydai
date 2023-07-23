@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        *{
+           /* border: 1px solid red; */    
+         }
+        div{
+            display: block;
+        }
+        #top{
+           text-align: center;
+           width: 80%;
+           display: flex;
+           justify-content: center;
+           flex-wrap: wrap;
+           box-sizing: border-box;
+        }
+        #top_1{
+            width: 128px;
+        }
+        #top img{
+            width: 100%;
+            height: 100%;
+            padding: 0 20px; 
+        }
+        #btn>span{
+            width: 100%;
+            display: inherit;
+            align-items: inherit;
+            justify-content: inherit;
+            color: #fff
+        }
+        #btn{
+            height: 55px;
+            padding: 0;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 0;
+            background-color: #3387bd;
+            border: 0;
+            margin: 0;
+            cursor: pointer;
+            display: inline-flex;
+            outline: none;
+            padding: 0;
+            position: relative;
+            width: 25%;
+            align-items: center;
+            user-select: none;
+            border-radius: 0;
+            vertical-align: middle;
+            justify-content: center;
+            text-decoration: none;
+        }
+        #login>input{
+            position: relative;
+            width: 25%;
+            border: 1px solid #ced4da;
+            height: 40px;
+            padding: 10px 12px;
+            opacity: 1 !important;
+            font-size: 12px;
+            box-sizing: border-box;
+            transition: border-color 300ms;
+            padding-top: 1%;
+        }
+        #login {
+            padding-top: 1%;
+        }
+        #btn:active{
+            background-color: #002884;
+        }
+        #find a {
+            text-decoration-line: none;
+            color: #006ca4;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        #bottom a{
+            text-decoration-line: none;
+            color: #006ca4;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        #bottom{
+            text-align: center;
+        }
+        #bottom2{
+            text-align: center;
+            color: #666;
+            font-size: 11px;
+        }
+        .new{
+           padding-left: 3%; 
+        }
+    </style>
+</head>
+<body> 
+    <div  id="top">
+        <div id="top_1">
+            <h2>
+                <img src="../현대차 이정완 김소연 정재학 최종/resources/images/hyundai_logo22.png">
+            </h2>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div style="text-align: center;">
+            <li style="width: 80%; color: #666; font-size: 12px;">이메일 로그인</li>
+            <div id="login">
+                <input type="text" name="userEmail" placeholder="이메일 주소" required><br><br>
+                <input type="password" name="userPwd" placeholder="비밀번호" required><br><br>
+                <button id="btn"><span>로그인</span></button>
+            </div>
+            <div id="find">
+                <a class="jss161" href="">아이디 찾기</a>
+                |
+                <a class="jss161" href="">비밀번호 초기화</a>
+                <span class="new">
+                    <a href="">회원가입 ▶</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div id="bottom">
+            <span>
+                <a href="#" class="jss311">이용약관</a>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#" class="jss311">개인정보 처리방침</a>
+            </span>
+        </div>
+    </div>
+    <div id="bottom2">
+        COPYRIGHT © HYUNDAI MOTOR COMPANY. ALL RIGHTS RESERVED.
+    </div>
+</body>
+</html>
